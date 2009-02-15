@@ -8,6 +8,7 @@ Source: 	http://downloads.sourceforge.net/tegaki/%name-%version.tar.gz
 URL: 		http://tegaki.sourceforge.net/
 Buildroot: 	%{_tmppath}/%{name}-%{version}-buildroot
 BuildArch:	noarch
+%py_requires -d
 Requires:	tegaki
 Requires:	scim-python
 
