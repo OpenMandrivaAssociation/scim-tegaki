@@ -1,15 +1,15 @@
 Summary: 	Chinese and Japanese Handwriting Recognition - scim integration
 Name: 		scim-tegaki
 Version: 	0.1
-Release: 	%mkrel 1
+Release: 	%mkrel 2
 License: 	GPLv2+
 Group: 		System/Internationalization
 Source: 	http://downloads.sourceforge.net/tegaki/%name-%version.tar.gz
 URL: 		http://tegaki.sourceforge.net/
 Buildroot: 	%{_tmppath}/%{name}-%{version}-buildroot
 BuildArch:	noarch
-%py_requires -d
-Requires:	tegaki
+BuildRequires:	python-setuptools
+Requires:	tegaki-pygtk
 Requires:	scim-python
 
 %description
