@@ -5,7 +5,7 @@ Release: 	%mkrel 2
 License: 	GPLv2+
 Group: 		System/Internationalization
 Source: 	http://downloads.sourceforge.net/tegaki/%name-%version.tar.gz
-URL: 		http://tegaki.sourceforge.net/
+URL: 		https://tegaki.sourceforge.net/
 Buildroot: 	%{_tmppath}/%{name}-%{version}-buildroot
 BuildArch:	noarch
 BuildRequires:	python-setuptools
